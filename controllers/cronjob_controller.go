@@ -32,7 +32,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	batch "kubebuilder-tutorial/api/v1"
+	batch "tutorial.kubebuilder.io/api/v1"
 )
 
 type realClock struct{}
